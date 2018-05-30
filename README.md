@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Platform
 
 To start your Phoenix server:
@@ -18,3 +19,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+=======
+# platform
+A phoenix tutorial exercise
+>>>>>>> 92159c4b0ab3cb910723cb86bb3e4435197baea8
