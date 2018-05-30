@@ -13,10 +13,10 @@ defmodule Platform.Accounts.Player do
     timestamps()
   end
 
-# suggested to be ----
-# --- def changeset(%Player{} = player, attrs) 
+# used to be ----
+# --- def changeset(player, attrs) 
   @doc false
-  def changeset(player, attrs) do
+  def changeset(%Player{} = player, attrs) do
     player
     |> cast(attrs, [:display_name, :password, :score, :username])
     |> validate_required([:username])
