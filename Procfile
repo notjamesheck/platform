@@ -1,2 +1,2 @@
-release: MIX_ENV=prod mic ecto.migrate
+release: MIX_ENV=prod mix ecto.migrate
 web: MIX_ENV=prod mix phx.server
